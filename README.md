@@ -3,7 +3,7 @@ Easily create an object for discord embed.
 
 Inspired by Discord.js MessageEmbed.
 
-Released: **3/12/21**
+Released: **3/18/21**
 
 Updated: **---**
 
