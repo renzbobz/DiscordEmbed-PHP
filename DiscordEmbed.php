@@ -5,7 +5,7 @@ class DiscordEmbed {
   
   # DiscordEmbed-PHP
   # github.com/renzbobz
-  # 3/17/21
+  # 3/18/21
   
   
   public function __toString() {
