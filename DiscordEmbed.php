@@ -127,7 +127,7 @@ class DiscordEmbed {
   
   # THUMBNAIL
 
-  public function setThumbnail($url, $height='', $width='') {
+  public function setThumbnail($url, $height=0, $width=0) {
     $this->thumbnail = [
       'url' => $this->resolveURL($url),
       'height' => $height,
@@ -138,7 +138,7 @@ class DiscordEmbed {
   
   # IMAGE
   
-  public function setImage($url, $height='', $width='') {
+  public function setImage($url, $height=0, $width=0) {
     $this->image = [
       'url' => $this->resolveURL($url),
       'height' => $height,
