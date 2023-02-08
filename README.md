@@ -26,8 +26,6 @@ $embed = (new DiscordEmbed)
 
 ## Methods
 
-## Embed Methods
-
 #### Title
 
 ```php
@@ -153,7 +151,7 @@ $field = [
 ```php
 addField(associative array $field);
 addField(string $name, ?string $value, ?bool $inline);
-addFields(associative|indexed array ...$fields)
+addFields(associative|indexed array ...$fields);
 ```
 
 #### Formatting
